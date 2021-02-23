@@ -1,0 +1,35 @@
+namespace HelloWorld
+
+//namespace关键字声明了与类相关的名称空间，其花括号中的所有代码都被认为是在这个名称空间中
+
+using static System.Console;
+
+//允许引用这个类的静态成员，而忽略名称空间和类名
+
+
+using System;
+
+仅声明，在调用 WriteLine() 方法时需要添加类名
+
+Console.WriteLine(" ");
+
+System.Console.WriteLine(" ");
+
+
+
+class Program
+
+所有C#代码必须包含在类中
+
+
+static void Main(string[] args)
+
+每个C#可执行文件都必须有一个入口点——Main()方法
+
+
+方法定义格式如下：
+
+[Modifiers] return_type MethodName([parameters])
+{
+	//Method body.
+}
